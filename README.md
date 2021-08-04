@@ -23,7 +23,7 @@ we also remove older article URLs based on the timestamp from the EdgeKV items o
 # Highlight: 
 This user specific analytic feature was one of the most interested use-cases that our editorial team was looking for and we were able to implement this without changing  anything on the original website components and data. This is completely handled by using Akamai Edgeworker and EdgeKV. This was a completely new experience for us to implement such functionality on a lighter way which could otherwise be an additional load on our server. 
 
-# Steps to reporoduce the use-case:
+# Steps to reproduce the use-case:
 
  1. Go to https://ewcc09.ewcc.in/home.html where you can see the Editor's Pick section. Here, we set the Unique UserID from the client IP and the Editors pick data parsing the home page HTML and store in cookies.
  2. Click on any of the articles from the Editor's Pick , you will get redirected to the selected article page.
