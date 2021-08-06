@@ -22,7 +22,7 @@ This user specific analytic feature was one of the most interested use-cases tha
 
 # Steps to reproduce the use-case:
 
- 1. Go to https://ewcc09.ewcc.in/home.html where you can see the Editor's Pick section. Here, we set the Unique UserID from the client IP and the Editors pick data parsing the home page HTML and store in cookies.
+ 1. Go to https://ewcc09.ewcc.in/ where you can see the Editor's Pick section. Here, we set the Unique UserID from the client IP and the Editors pick data parsing the home page HTML and store in cookies.
  2. Click on any of the articles from the Editor's Pick , you will get redirected to the selected article page.
  3. you might have to refresh the page for a few times to load the article content. This seems to be a timeout issue with the Edgeworker.
  4. you will see the missed Editor's pick article list on the bottom right corner of the page. this is appicable only for the Editor's pick articles. Other articles remiain the same.
